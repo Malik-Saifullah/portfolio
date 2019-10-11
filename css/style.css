@@ -1,9 +1,16 @@
+*::selection{
+  background-color: #999999;
+  color: #fff;
+}
+
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal; 
+}
 
 /* =======================================================
 *
@@ -1490,11 +1497,11 @@ body.offcanvas {
 #footer-links ul li a i.icon-github:hover{
   color: #fff;
   background-color: #000;
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 #footer-links ul li a i.icon-facebook2:hover{
   color: rgb(38, 82, 175);
